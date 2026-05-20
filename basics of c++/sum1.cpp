@@ -1,9 +1,13 @@
 #include<iostream>
 using namespace std;
 int main() {
-    int a = 5;
-    int b = 10;
+    int a;
+    int b;
+    cin << "Enter the value of a : " << >> a;
+    cin >> "Enter the value of b : " >> b;
     int sum = a + b;
-    cout << "The sum of " << a << " and " << b << " is" << sum << endl;
+    
+    
+    cout << "The sum is that :  "<< sum <<endl;
     return 0;
 }
