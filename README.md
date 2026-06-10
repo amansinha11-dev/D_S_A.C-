@@ -18,7 +18,6 @@ This repository is created to improve problem-solving skills, strengthen coding 
 - Pointers
 - Recursion
 
----
 
 ## 🔹 Data Structures
 - Arrays
