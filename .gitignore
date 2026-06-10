@@ -1,0 +1,9 @@
+# Compiled executables
+*.exe
+*.o
+*.out
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
