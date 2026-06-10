@@ -6,7 +6,7 @@ using namespace std;
 int main() {
     int income;
     // 2. Minor bug fix: Initialize tax to 0. Otherwise, if income is <= 5, 
-    // it will print a random garbage value at the end!
+    // it will print a random garbage value at the end!    ....
     float tax = 0; 
     
     cout << "Enter Your Income (in lakh)" << endl;
