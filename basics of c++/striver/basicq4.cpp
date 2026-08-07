@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-int main(){
+int main(){//4q elegible for job or not & retirement 
     int nums;
     cout<<"Enter your Number"<<endl;
     cin>>nums;
