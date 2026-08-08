@@ -1,16 +1,31 @@
 #include<bits/stdc++.h>
 using namespace std;
+
 void print1(int n){
-    for(int i =0; i<n;i++) {
-        for(int j = 0; j <n;j++){
-            cout<<"*";
+    for(int i = 0; i < n; i++) {
+        for(int j = 0; j < n; j++){
+            cout << "*";
         }
-        cout<<endl;
+        cout << endl;
     }
 }
-int main(){
- int n;
- cin >> n ;
 
- print1(n);
+void print2(int n){
+    for(int i = 0; i < n; i++){
+        for(int j = 0; j <= i; j++){
+            cout << "*";
+        }
+        cout << endl;
+    }
+}
+
+int main(){
+    int t;
+    cin >> t;
+    for(int i = 0; i < t; i++){
+        int n; // <-- Fixed: Added the semicolon here
+        cin >> n;
+        print2(n);
+    }
+    return 0; // Good practice to add this at the end of main
 }
